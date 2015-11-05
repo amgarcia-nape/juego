@@ -18,4 +18,10 @@ class Ceil{
     	/*}}}*/
     }
 
+    public function getSimbol(){
+        /*{{{*/
+        return ($this->getStatus() == 1 ) ? '' : ' ';
+        /*}}}*/
+    }
+
 }

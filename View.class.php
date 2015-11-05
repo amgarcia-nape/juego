@@ -15,7 +15,8 @@ class View{
         foreach($this->table as $rowIndex => $row){
             echo "| ";
             foreach($row as  $columnIndex => $column){
-                echo $column->getStatus() . " | ";
+                // echo $column->getStatus() . " | ";
+                echo $column->getSimbol() . " | ";
             }
             echo "\n";
         }
